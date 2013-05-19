@@ -1,0 +1,24 @@
+#
+# system.prop for d2spr
+#
+
+# CDMA Stuff
+ro.cdma.home.operator.numeric=310120
+ro.cdma.home.operator.alpha=Sprint
+ro.telephony.default_network=8
+telephony.lteOnCdmaDevice=1
+telephony.sms.pseudo_multipart=1
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=22
+persist.eons.enabled=false
+rild.libargs=-d /dev/smd0
+
+# RIL (Radio Interface Layer)
+ro.ril.hep=1
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
+ro.config.donot_nosim=true
+ro.ril.disable.power.collapse=0
+ro.ril.ecclist=112,311,911,#911,*911
+ro.telephony.ril_class=SamsungCDMAQualcommRIL
+
